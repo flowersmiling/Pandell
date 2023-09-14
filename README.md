@@ -8,6 +8,8 @@ First, ensure you have the following installed:
 
 1. Node - Download and Install latest version of Node: [NodeJS](https://nodejs.org)
 
+2. Npm - `npm install`
+
 After that, use `Git bash` to run all commands if you are on Windows platform.
 
 ## Clone repository
@@ -24,20 +26,8 @@ $ cd Pandell
 You'll need to download some node modules defined into `package.json` file.
 
 ```
-npm install
-```
-```
 npm i express
 ```
-
-## Build the app
-Run the following command
-
-```
-npm build
-```
-
-This will generate a `dist` directory(JavaScript output files).
 
 ## Run the app
 
