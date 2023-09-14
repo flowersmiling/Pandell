@@ -7,8 +7,6 @@ Please write a program that generates a list of 10,000 numbers in random order e
 First, ensure you have the following installed:
 
 1. Node - Download and Install latest version of Node: [NodeJS](https://nodejs.org)
-2. Npm - `npm install -g npm`
-3. Express - `npm i express`
 
 After that, use `Git bash` to run all commands if you are on Windows platform.
 
@@ -28,6 +26,9 @@ You'll need to download some node modules defined into `package.json` file.
 ```
 npm install
 ```
+```
+npm i express
+```
 
 ## Build the app
 Run the following command
@@ -44,19 +45,8 @@ This will generate a `dist` directory(JavaScript output files).
 npm start
 ```
 
-Now open your browser here: [http://localhost:3000/](http://localhost:3000/)
+Now open your browser here: [http://localhost:8080/](http://localhost:8080/)
 
-You'll have available the following `RESTful` services:
-
-```
-GET http://localhost:3000/tasks/doing
-GET http://localhost:3000/tasks/done
-POST http://localhost:3000/tasks
-PUT http://localhost:3000/tasks/:id
-DELETE http://localhost:3000/tasks
-```
-
-If you want to change the port, please update `index.ts` file.
 
 ## License
 
